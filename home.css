@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+  justify-content: space-between;
+  position: sticky;
+  background-color: rgb(255, 255, 255);
+}
+
+.navlogo {
+  margin: 100px;
+  background: url("./navlogo.jpg") no-repeat center center/cover;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin-top: 150px;
+}
+
+.navbuttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 30px;
+  margin-right: 50px;
+  justify-content: space-between;
+  /* width: 500px; */
+}
+
+.navbar ul a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  font-size: 20px;
+  margin: 10px;
+  font-weight: 500;
+}
+
+.navbar ul a:hover {
+  color: rgb(255, 154, 12);
+}
+.profileinfo {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 25px;
+}
+.signout button {
+  cursor: pointer;
+
+  width: max-content;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+
+  background: black;
+}
+#home::before {
+  background: url("./divhomeback.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+  content: "";
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 60px;
+  left: 0px;
+  z-index: -1;
+}
+
+#home {
+  background-color: rgba(0, 0, 0, 0.612);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.quote {
+  color: rgb(255, 255, 255);
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+#places {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+.placebox {
+  height: 300px;
+  width: 23.5%;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(255, 154, 12);
+  border-radius: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.placebox:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#photo1 {
+  background: url("./vadodara.jpg") no-repeat center center/cover;
+}
+
+#photo2 {
+  background: url("./diu.jpg") no-repeat center center/cover;
+}
+
+#photo3 {
+  background: url("./kutch.jpg") no-repeat center center/cover;
+}
+
+#photo4 {
+  background: url("./modhera.jpg") no-repeat center center/cover;
+}
+
+#photo5 {
+  background: url("./saputara.jpg") no-repeat center center/cover;
+}
+
+#photo6 {
+  background: url("./statue.jpg") no-repeat center center/cover;
+}
+
+#photo7 {
+  background: url("./dwarka.jpg") no-repeat center center/cover;
+}
+
+#photo8 {
+  background: url("./champaner.jpg") no-repeat center center/cover;
+}
+
+.photo {
+  height: 85%;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+span {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+.about p {
+  font-size: 20px;
+  /* justify font */
+  text-align: justify;
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+}
+
+#about {
+  width: 50%;
+  padding: 10px 10px;
+}
+
+.heading {
+  text-align: center;
+  font-size: larger;
+  margin: 5px 0px;
+  font-weight: 600;
+}
+
+#about .about {
+  text-align: justify;
+  margin: 3px;
+  padding: 3px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* width: 20%; */
+  padding: 10px 80px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  margin: 3px 0px;
+}
+
+.menu a:hover {
+  font-weight: bolder;
+}
+
+.getintouch {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* width: 30%; */
+  padding: 10px 80px;
+}
+
+.getintouch ul {
+  text-decoration: none;
+  color: black;
+  margin: 3px 0px;
+}
+
+.getintouch ul:hover {
+  font-weight: bolder;
+}
