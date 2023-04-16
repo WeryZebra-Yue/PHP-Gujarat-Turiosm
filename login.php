@@ -25,7 +25,7 @@
 
             </form>
             
-            <!-- <div class="forgotpass">Forgot Password?</div> -->
+          
             <div class="forgotpass">   
                 <?php
                 session_start();
